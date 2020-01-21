@@ -1,11 +1,7 @@
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <img width="40" alt="Moodle 2 Logo" src="./../assets/moodle.png"/>
-  <span>Moodle 2</span>
-  <div class="spacer"></div>
-
-  <button (click)="loginTeacher()">login teacher</button>
-  <button (click)="loginStudent()">login student</button>
+  <span>My Resume</span>
 </div>
 
 <div class="content" role="main">
@@ -23,7 +19,7 @@
       </g>
     </svg>
     
-    <span>Moodle 2.1</span>
+    <span>Felix Wilhelmy</span>
     
     <svg id="rocket-smoke" alt="Rocket Ship Smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <path id="Path_40" data-name="Path 40" d="M644.6,141S143.02,215.537,147.049,870.207s342.774,201.755,342.774,201.755S404.659,847.213,388.815,762.2c-27.116-145.51-11.551-384.124,271.9-609.1C671.15,139.365,644.6,141,644.6,141Z" transform="translate(-147.025 -140.939)" fill="#f5f5f5"/>
@@ -31,7 +27,164 @@
     
   </div>
   
-  <router-outlet></router-outlet>
+  <!-- <router-outlet></router-outlet> -->
+
+  <div class="root">
+    <div class="header">
+      <div>
+        {{resume.name}}
+      </div>
+      <div>
+        {{resume.linkedin}}
+      </div>
+      <div>
+        {{resume.email}}
+      </div>
+      <div>
+        {{resume.phone}}
+      </div>
+    </div>
+    <div class="body">
+      
+      <section class="education">
+        <div class="mat-h1">
+          Education
+        </div>
+        <div *ngFor="let education of resume.education">
+          <div class="mat-h3">
+            {{education.title}}
+          </div>
+          <div>
+            {{education.school}}
+          </div>
+          <div>
+            {{education.date}}
+          </div>
+          <div>
+            {{education.location}}
+          </div>
+        </div>
+      </section>
+  
+      <section class="work">
+        <div class="mat-h1">
+          Work
+        </div>
+        <div *ngFor="let work of resume.work">
+          <div class="mat-h2">
+            {{work.type}}
+          </div>
+          <div *ngFor="let experiance of work.experiances">
+            <div class="mat-h3">
+              {{experiance.title}} {{experiance.internship?"(Internship)":""}}
+            </div>
+            <div>
+              {{experiance.employer}}
+            </div>
+            <div>
+              {{experiance.date}}
+            </div>
+            <div>
+              {{experiance.location}}
+            </div>
+            <div *ngFor="let description of experiance.description">
+              <div>
+                {{description}}
+              </div>
+            </div>
+            <div *ngFor="let achievement of experiance.achievements">
+              <div>
+                {{achievement}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="projects">
+        <div class="mat-h1">
+          Projects
+        </div>
+        <div *ngFor="let project of resume.projects">
+          <div class="mat-h2">
+            {{project.type}}
+          </div>
+          <div class="projects" *ngFor="let experiance of project.experiances">
+            <div class="mat-h3">
+              {{experiance.title}}
+            </div>
+            <div>
+              {{experiance.related}}
+            </div>
+            <div>
+              {{experiance.date}}
+            </div>
+            <div *ngFor="let description of experiance.description">
+              <div>
+                {{description}}
+              </div>
+            </div>
+            <div *ngFor="let achievement of experiance.achievements">
+              <div>
+                {{achievement}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div *ngFor="let code of resume.codes">
+          <div class="mat-h2">
+            {{code.title}}
+          </div>	
+          <div>
+            {{code.date}}
+          </div>
+          <div *ngFor="let description of code.description">
+            <div>
+              {{description}}
+            </div>
+          </div>
+          <div *ngFor="let achievement of code.achievements">
+            <div>
+              {{achievement}}
+            </div>
+          </div>
+          <iframe height="275" style="width: 100%;" scrolling="no" title="Gravity Simulator V1" src="TODO CODEPEN URL" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
+        </div>
+      </section>
+  
+      <section class="knowledge">
+        <div class="mat-h1">
+          Knowledge
+        </div>
+        <div *ngFor="let knowledge of resume.knowledge">
+          <div class="mat-h2">
+            {{knowledge.type}}
+          </div>
+          <div *ngFor="let skill of knowledge.skills">
+            <div>
+              {{skill.name}}
+            </div>
+            <mat-progress-bar value={{skill.level*100}}></mat-progress-bar>
+          </div>
+        </div>
+      </section>
+  
+      <section class="languages">
+        <div class="mat-h1">
+          Languages
+        </div>
+        <div *ngFor="let language of resume.languages">
+          <div>
+            {{language.name}}
+          </div>
+          <div>
+            {{language.description}}
+          </div>
+          <mat-progress-bar value={{language.level*100}}></mat-progress-bar>
+        </div>
+      </section>
+    </div>
+  </div>
   
   <!-- Footer -->
   <footer>

@@ -12,17 +12,17 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$MoodleV2-primary: mat-palette($mat-indigo);
-$MoodleV2-accent: mat-palette($mat-pink, A200, A100, A400);
+$Resume-primary: mat-palette($mat-indigo);
+$Resume-accent: mat-palette($mat-pink, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$MoodleV2-warn: mat-palette($mat-red);
+$Resume-warn: mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$MoodleV2-theme: mat-light-theme($MoodleV2-primary, $MoodleV2-accent, $MoodleV2-warn);
+$Resume-theme: mat-light-theme($Resume-primary, $Resume-accent, $Resume-warn);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include angular-material-theme($MoodleV2-theme);
+@include angular-material-theme($Resume-theme);
 

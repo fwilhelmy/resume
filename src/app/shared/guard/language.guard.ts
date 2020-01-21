@@ -9,6 +9,6 @@ export class StudentGuard implements CanActivate {
     constructor(private sessionService: SessionService) {}
 
   canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
-    return this.sessionService.isStudent();
+    return true;
   }
 }
