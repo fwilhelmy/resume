@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { sgaurl, cryptokey } from '../../../config';
 import { CookieService } from './cookie.service';
 import { Router } from '@angular/router';
 
