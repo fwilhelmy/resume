@@ -2,3 +2,4 @@
 - FIND DECENT CSS (Maybe contact Phillip for help?)
 - EMBED CODE PROJECT
 - SPLIT IN MORE DETAILS THE DATA? 
+-  sticky-top FOR SECTION HEADER
