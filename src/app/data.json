@@ -3,195 +3,392 @@
 	"linkedin": "/felix-wilhelmy",
 	"email": "fwilhelmy@hotmail.com",
 	"phone": "(438) 888-4218",
-	"education": [{
+	"education": 
+	[
+		{
 			"title": "BAC GÉNIE LOGICIEL",
 			"school": "École de technologie supérieure",
-			"date": "Autumn 2018 (Ongoing)",
-			"location": "Quebec, Canada"
+			"date": 
+			{
+				"fr": "Automne 2018 (En Cours)",
+				"en": "Autumn 2018 (Ongoing)"
+			},
+			"location": 
+			{
+				"fr": "Montréal, Québec",
+				"en": "Montreal, Quebec"
+			}
 		},
 		{
 			"title": "DEC COMPUTER SCIENCES",
 			"school": "Collège Montmorency",
-			"date": "2013 to 2016",
-			"location": "Quebec, Canada"
+			"date": 
+			{
+				"fr": "2013 à 2016",
+				"en": "2013 to 2016"
+			},
+			"location": 
+			{
+				"fr": "Montréal, Québec",
+				"en": "Montreal, Quebec"
+			}
 		},
 		{
-			"title": "ENGLISH IMMERSION PROGRAM",
+			"title":
+			{
+				"fr": "PROGRAMME D'IMMERSION EN ANGLAIS",
+				"en": "ENGLISH IMMERSION PROGRAM"
+			},
 			"school": "Global Village English Centre",
-			"date": "Summer 2015",
-			"location": "Alberta, Canada"
+			"date": 
+			{
+				"fr": "Été 2015",
+				"en": "Summer 2015"
+			},
+			"location": "Calgary, Alberta"
 		}
 	],
-	"work": [{
-			"type": "Professional",
-			"experiances": [{
+	"work": 
+	[
+		{
+			"type":
+			{
+				"fr": "Experiance Professionel",
+				"en": "Professional Experiance"
+			},
+			"experiances": 
+			[
+				{
 					"internship": true,
 					"title": "Full Stack Developper",
 					"employer": "Air Transat",
-					"date": "Summer 2019",
-					"location": "Quebec, Canada",
-					"description": [
-						"sf",
-						"fsa"
+					"date": 
+					{
+						"fr": "Été 2019",
+						"en": "Summer 2019"
+					},
+					"location": 
+					{
+						"fr": "Montréal, Québec",
+						"en": "Montreal, Quebec"
+					},
+					"description": 
+					[
+						{
+							"fr": "",
+							"en": ""	
+						}
 					],
-					"achievements": [
-						"dfa",
-						"sfadea"
+					"achievements": 
+					[
+						{
+							"fr": "",
+							"en": ""	
+						}
 					]
 				},
 				{
 					"internship": true,
-					"title": "Research & Development",
-					"employer": "National Film Board",
-					"date": "Winter 2016",
-					"location": "Montreal, Quebec",
-					"description": [
-						"Worked on the project of developing an OCR artificial intelligence",
-						"Developed training algorithms in python for the deep learning machine",
-						"Assisted senior researchers towards implementing my work"
+					"title":
+					{
+						"fr": "Recherche & Développement",
+						"en": "Research & Development"
+					},
+					"employer": 
+					{
+						"fr": "Office National du Film",
+						"en": "National Film Board"
+					},
+					"date": 
+					{
+						"fr": "Hiver 2016",
+						"en": "Winter 2016"
+					},
+					"location": 
+					{
+						"fr": "Montréal, Québec",
+						"en": "Montreal, Quebec"
+					},
+					"description": 
+					[
+						
+						{
+							"fr": "Travaillé sur un projet de développement d’une intelligence artificielle OCR",
+							"en": "Worked on the project of developing an OCR artificial intelligence"
+						},
+						{
+							"fr": "Développer des algorithmes d'entrainement pour la machine (en python)",
+							"en": "Developed training algorithms in python for the deep learning machine"
+						},
+						{
+							"fr": "Assister les recherchistes dans l'implémentation de mon travail",
+							"en": "Assisted senior researchers towards implementing my work"
+						}
 					],
-					"achievements": []
+					"achievements": 
+					[
+					]
 				},
 				{
 					"internship": true,
-					"title": "IT Support Specialist",
+					"title":
+					{
+						"fr": "TI Support Technique",
+						"en": "IT Support Specialist"
+					},
 					"employer": "Moment Factory",
-					"date": "May to August 2014",
-					"location": "Montreal, Quebec",
-					"description": [
-						"Programmed tools for the employees (Mostly in Python and JavaScript)",
-						"Helped customers in ensuring the functioning of the technologies",
-						"Deployed technologies such as computers and servers"
+					"date": 
+					{
+						"fr": "Mai à Août 2014",
+						"en": "May to August 2014"
+					},
+					"location": 
+					{
+						"fr": "Montréal, Québec",
+						"en": "Montreal, Quebec"
+					},
+					"description": 
+					[
+						
+						{
+							"fr": "Programmer des scripts d'automatisation (en Python et JavaScript)",
+							"en": "Programmed tools for the employees (Mostly in Python and JavaScript)"
+						},
+						{
+							"fr": "Aider les autres employées dans le fonctionnement des technologies#",
+							"en": "Helped customers in ensuring the functioning of the technologies"
+						},
+						{
+							"fr": "Déploier des technologies telles que des ordinateurs et des serveurs",
+							"en": "Deployed technologies such as computers and servers"
+						}
+					],
+					"achievements": 
+					[
 					]
 				}
 			]
 		},
 		{
-			"type": "Other",
-			"experiances": [{
+			"type":
+			{
+				"fr": "Autre Experiances",
+				"en": "Other Experiances"
+			},
+			"experiances": 
+			[
+				{
 					"internship": false,
-					"title": "Professional Esports coach in Overwatch",
-					"employer": "National Film Board",
-					"date": "Winter 2016",
-					"location": "Montreal, Quebec",
-					"description": [
-						"Worked for international Esports teams (South Korea, France, Denmark, etc.)",
-						"Developed a strong perseverance, leadership and maturity",
-						"Coached players who became some of the best in the world"
-					],
-					"achievements": []
+					"title":
+					{
+						"fr": "Entraîneur professionnel d’Esports",
+						"en": "Professional Esports coach"
+					},
+					"employer": "Overwatch",
+					"date": 
+					{
+						"fr": "2016 à 2018",
+						"en": "2016 to 2018"
+					},
+					"description": 
+					[
+						
+						{
+							"fr": "Travaillé pour des équipes d'Esports internationales d’Esports (Corée du Sud, France, Danemark, etc.)",
+							"en": "Worked for international Esports teams (South Korea, France, Denmark, etc.)"
+						},
+						{
+							"fr": "Développé un bons leadership, persévérance et maturité",
+							"en": "Developed a strong perseverance, leadership and maturity"
+						},
+						{
+							"fr": "Coacher des joueurs qui sont devenus parmi les meilleurs au monde",
+							"en": "Coached players who became some of the best in the world"
+						}
+					]
 				},
 				{
 					"internship": false,
-					"title": "Research & Development",
-					"employer": "National Film Board",
-					"date": "Winter 2016",
-					"location": "Montreal, Quebec",
-					"description": [
-						"Support au responsable d'une classe d'adolescent."
+					"title": "Teen Program Assistant",
+					"employer": "Global Village English Centre",
+					"date": 
+					{
+						"fr": "Été 2015",
+						"en": "Summer 2015"
+					},
+					"location": "Calgary, Alberta",
+					"description": 
+					[
+						
+						{
+							"fr": "Support au responsable d'une classe d'adolescent",
+							"en": "Support for the supervision of a class of teenagers"
+						}
 					]
 				}
 			]
 		}
 	],
-	"projects": [{
-			"type": "School",
-			"experiances": [{
-				"title": "Robotic Club",
-				"related": "Collège Montmorency",
-				"date": "2013 - 2014",
-				"description": [
-					"Robot won the prize for the best programming",
-					"Made the website of the team"
-				],
-				"achievements": []
-			}]
+	"projects": 
+	[
+		{
+			"type":
+			{
+				"fr": "École",
+				"en": "School"
+			},
+			"experiances": 
+			[
+				{
+					"title":
+					{
+						"fr": "Club Robotique",
+						"en": "Robotic Club"
+					},
+					"related": "Collège Montmorency",
+					"date": "2013 - 2014",
+					"description": 
+					[
+						{
+							"fr": "Remporté le prix de la meilleure programmation",
+							"en": "Robot won the prize for the best programming"
+						},
+						{
+							"fr": "Aussi, conçut le Site Web de l'équipe",
+							"en": "Made the website of the team"
+						}
+					]
+				}
+			]
 		},
 		{
-			"type": "Other",
-			"experiances": [{
-				"title": "Dungeons & Dragons",
-				"related": "Collège Montmorency",
-				"date": "2014 - 2016",
-				"description": [
-					"I was the Dungeon Master of my group",
-					"The system we used was entirely designed by me"
-				],
-				"achievements": []
-			}]
+			"type":
+			{
+				"fr": "Autres",
+				"en": "Others"
+			},
+			"experiances": 
+			[
+				{
+					"title":
+					{
+						"fr": "Donjons & Dragons",
+						"en": "Dungeons & Dragons"
+					},
+					"related": "Collège Montmorency",
+					"date": "2014 - 2016",
+					"description": 
+					[
+						{
+							"fr": "J’étais le maître du donjon de mon groupe",
+							"en": "I was the Dungeon Master of my group"
+						},
+						{
+							"fr": "Le système D20 utilisé a été presque entièrement conçu par moi",
+							"en": "The system we used was almost entirely designed by me"
+						}
+					]
+				}
+			]
 		},
 		{
-			"type": "Hobbies",
-			"experiances": [{
-					"title": "Chess",
-					"date": "Since 2017",
-					"description": [
-						"Strong and constant focus on a task",
-						"Ability to quickly analyze complicated situations"
-					],
-					"achievements": []
+			"type":
+			{
+				"fr": "Loisirs",
+				"en": "Hobbies"
+			},
+			"experiances": 
+			[
+				{
+					"title":
+					{
+						"fr": "Échecs",
+						"en": "Chess"
+					},
+					"date": 
+					{
+						"fr": "Depuis 2017",
+						"en": "Since 2017"
+					},
+					"description": 
+					[
+						{
+							"fr": "Forte concentration constante sur une tâche",
+							"en": "Strong and constant focus on a task"
+						},
+						{
+							"fr": "Analyser rapidement des situations compliquées",
+							"en": "Ability to quickly analyze complicated situations"
+						}
+					]
 				},
 				{
 					"title": "Piano",
 					"date": "Since 2016",
-					"description": [
-						"Self discipline to learn by myself"
+					"description": 
+					[
+						{
+							"fr": "Autodidacte",
+							"en": "Self discipline to learn by myself"
+						}
 					]
 				}
 			]
 		}
 	],
-	"codes": [{
-			"title": "Gravity Simulator",
-			"codepen": "QeZBJQ",
-			"date": "2019",
-			"description": [
-				"Simulate gravity"
-			],
-			"achievements": []
-		},
+	"knowledge": 
+	[
 		{
-			"title": "Life Simulator",
-			"codepen": "KKPyowe",
-			"date": "2019",
-			"description": [
-				"Simulate gravity"
-			],
-			"achievements": []
-		},
-		{
-			"title": "Hexagon Show",
-			"codepen": "eYOeMJx",
-			"date": "2019",
-			"description": [
-				"Simulate gravity"
-			],
-			"achievements": []
-		}
-	],
-	"knowledge": [{
-			"type": "Top",
-			"skills": [{
-					"name": "Data Structures",
+			"type":
+			{
+				"fr": "Mes Forces",
+				"en": "Top"
+			},
+			"skills": 
+			[
+				{
+					"name":
+					{
+						"fr": "Structures de données",
+						"en": "Data Structures"
+					},
 					"level": 0.9
 				},
 				{
-					"name": "Algorithms",
+					"name":
+					{
+						"fr": "Algorithmes",
+						"en": "Algorithms"
+					},
 					"level": 0.85
 				},
 				{
-					"name": "Problem analysis",
+					"name":
+					{
+						"fr": "Analyse de problèmes",
+						"en": "Problem analysis"
+					},
 					"level": 0.85
 				},
 				{
-					"name": "Mathematics",
+					"name":
+					{
+						"fr": "Mathématiques",
+						"en": "Mathematics"
+					},
 					"level": 0.8
 				}
 			]
 		},
 		{
-			"type": "Programming",
-			"skills": [{
+			"type":
+			{
+				"fr": "Programmation",
+				"en": "Programming"
+			},
+			"skills": 
+			[
+				{
 					"name": "JavaScript",
 					"level": 0.7
 				},
@@ -214,8 +411,14 @@
 			]
 		},
 		{
-			"type": "Software",
-			"skills": [{
+			"type":
+			{
+				"fr": "Logiciel",
+				"en": "Software"
+			},
+			"skills": 
+			[
+				{
 					"name": "Visual Studio",
 					"level": 0.85
 				},
@@ -238,15 +441,96 @@
 			]
 		}
 	],
-	"languages": [{
-			"name": "French",
-			"description": "Native",
+	"languages": 
+	[
+		{
+			"name":
+			{
+				"fr": "Français",
+				"en": "French"
+			},
+			"description":
+			{
+				"fr": "Natif",
+				"en": "Native"
+			},
 			"level": 1
 		},
 		{
-			"name": "English",
-			"description": "Professional",
-			"level": 0.9
+			"name":
+			{
+				"fr": "Anglais",
+				"en": "English"
+			},
+			"description":
+			{
+				"fr": "Professionel",
+				"en": "Professional"
+			},
+			"level": 0.85
+		}
+	],
+	"codes": 
+	[
+		{
+			"title":
+			{
+				"fr": "",
+				"en":"Gravity Simulator"
+			},
+			"codepen":
+			{
+				"fr": "",
+				"en": "QeZBJQ"
+			},
+			"date":
+			{
+				"fr": "",
+				"en": "2019"
+			},
+			"description": [
+				"Simulate gravity"
+			]
+		},
+		{
+			"title":
+			{
+				"fr": "",
+				"en":"Life Simulator"
+			},
+			"codepen":
+			{
+				"fr": "",
+				"en": "KKPyowe"
+			},
+			"date":
+			{
+				"fr": "",
+				"en": "2019"
+			},
+			"description": [
+				"Simulate gravity"
+			]
+		},
+		{
+			"title":
+			{
+				"fr": "",
+				"en":"Hexagon Show"
+			},
+			"codepen":
+			{
+				"fr": "",
+				"en": "eYOeMJx"
+			},
+			"date":
+			{
+				"fr": "",
+				"en": "2019"
+			},
+			"description": [
+				"Simulate gravity"
+			]
 		}
 	]
 }

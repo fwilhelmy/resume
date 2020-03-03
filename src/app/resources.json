@@ -1,0 +1,39 @@
+{
+	"name": {
+        "fr": "Nom",
+        "en": "Name"
+    },
+	"linkedin": "LinkedIn",
+	"email": {
+        "fr": "Courriel",
+        "en": "Email"
+    },
+	"phone": {
+        "fr": "Téléphone",
+        "en": "Phone"
+    },
+	"education": {
+        "fr": "Formation",
+        "en": "Education"
+    },
+	"work": {
+        "fr": "Experiance de Travail",
+        "en": "Work Experiance"
+    },
+    "internship": {
+        "fr": "Stage",
+        "en": "Internship"
+    },
+	"projects": {
+        "fr": "Projets",
+        "en": "Achievements & Projects"
+    },
+	"knowledge": {
+        "fr": "Habiletés",
+        "en": "Skills"
+    },
+	"languages": {
+        "fr": "Langues",
+        "en": "Languages"
+    }
+}
