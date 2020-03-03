@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "resume-851cc"
+  },
+  "targets": {
+    "resume-851cc": {
+      "hosting": {
+        "Resume": [
+          "resume-851cc"
+        ]
+      }
+    }
   }
 }

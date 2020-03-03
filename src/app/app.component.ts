@@ -11,7 +11,7 @@ import data2 from './resources.json';
 export class AppComponent implements OnInit {
     public resume = data1;
     public resource = data2;
-    public language = 'FR';
+    public language = 'EN';
 
     constructor() {
     }
