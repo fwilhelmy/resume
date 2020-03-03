@@ -1,15 +1,15 @@
 <!-- Toolbar -->
-<div class="toolbar container" role="banner">
+<div class="toolbar container notPrinted" role="banner">
   <div class="col">
     Felix Wilhelmy
   </div>
 
   <div class="col-auto navigation">
-    <button mat-button (click)="scroll(education)">education</button>
-    <button mat-button (click)="scroll(work)">work</button>
-    <button mat-button (click)="scroll(projects)">projects</button>
-    <button mat-button (click)="scroll(knowledge)">knowledge</button>
-    <button mat-button (click)="scroll(languages)">languages</button>
+    <button mat-button (click)="scroll(education)">{{lang(resource.education)}}</button>
+    <button mat-button (click)="scroll(work)">{{lang(resource.work)}}</button>
+    <button mat-button (click)="scroll(projects)">{{lang(resource.projects)}}</button>
+    <button mat-button (click)="scroll(knowledge)">{{lang(resource.knowledge)}}</button>
+    <button mat-button (click)="scroll(languages)">{{lang(resource.languages)}}</button>
   </div>
 
   <div class="col language">
@@ -26,10 +26,10 @@
     <mat-card>
       <mat-card-header>
         <mat-card-title>
-          <div> Name : {{resume.name}} </div>
-          <div> linkedin : <a href="https://www.linkedin.com/in{{resume.linkedin}}" target="_blank">{{resume.linkedin}}</a> </div>
-          <div> Email : {{resume.email}} </div>
-          <div> Phone : {{resume.phone}} </div>
+          <div> {{lang(resource.name)}} : {{lang(resume.name)}} </div>
+          <div> {{lang(resource.linkedin)}} : <a href="https://www.linkedin.com/in{{lang(resume.linkedin)}}" target="_blank">{{lang(resume.linkedin)}}</a> </div>
+          <div> {{lang(resource.email)}} : {{lang(resume.email)}} </div>
+          <div> {{lang(resource.phone)}} : {{lang(resume.phone)}} </div>
         </mat-card-title>
       </mat-card-header>
     </mat-card>
@@ -37,46 +37,47 @@
   
   <section class="education" #education>
     <div class="section-title">
-      <h2>Education</h2>
+      <h2>{{lang(resource.education)}}</h2>
     </div>
 
     <div class="section-content">
     <div *ngFor="let education of resume.education">
       <mat-card>
         <mat-card-header>
-          <mat-card-title>{{education.title}}</mat-card-title>
-          <mat-card-subtitle>{{education.school}} - {{education.date}} - {{education.location}}</mat-card-subtitle>
+          <mat-card-title>{{lang(education.title)}}</mat-card-title>
+          <mat-card-subtitle>{{lang(education.school)}} - {{lang(education.date)}} - {{lang(education.location)}}</mat-card-subtitle>
         </mat-card-header>
       </mat-card>
+      
     </div>
   </div>
   </section>
   
   <section class="work" #work>
     <div class="section-title">
-      <h2>Work</h2>
+      <h2>{{lang(resource.work)}}</h2>
     </div>
     
     <div class="section-content">
       <div *ngFor="let work of resume.work">
         <h4>
-          {{work.type}}
+          {{lang(work.type)}}
         </h4>
         <div *ngFor="let experiance of work.experiances">
           <mat-card>
             <mat-card-header>
-              <mat-card-title>{{experiance.title}} {{experiance.internship?"(Internship)":""}}</mat-card-title>
-              <mat-card-subtitle>{{experiance.employer}} - {{experiance.date}} - {{experiance.location}}</mat-card-subtitle>
+              <mat-card-title>{{lang(experiance.title)}} {{experiance.internship?"("+lang(resource.internship)+")":""}}</mat-card-title>
+              <mat-card-subtitle>{{lang(experiance.employer)}} - {{lang(experiance.date)}} - {{lang(experiance.location)}}</mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
               <div *ngFor="let description of experiance.description">
                 <div>
-                  - {{description}}
+                  - {{lang(description)}}
                 </div>
               </div>
               <div *ngFor="let achievement of experiance.achievements">
                 <div>
-                  - {{achievement}}
+                  - {{lang(achievement)}}
                 </div>
               </div>
             </mat-card-content>
@@ -88,29 +89,29 @@
   
   <section class="projects" #projects>
     <div class="section-title">
-      <h2>Project</h2>
+      <h2>{{lang(resource.projects)}}</h2>
     </div>
 
     <div class="section-content">
     <div *ngFor="let project of resume.projects">
       <h4>
-        {{project.type}}
+        {{lang(project.type)}}
       </h4>
       <div class="projects" *ngFor="let experiance of project.experiances">
         <mat-card>
           <mat-card-header>
-            <mat-card-title>{{experiance.title}}</mat-card-title>
-            <mat-card-subtitle>{{experiance.date}} - {{experiance.related}}</mat-card-subtitle>
+            <mat-card-title>{{lang(experiance.title)}}</mat-card-title>
+            <mat-card-subtitle>{{lang(experiance.date)}} - {{lang(experiance.related)}}</mat-card-subtitle>
           </mat-card-header>
           <mat-card-content>
             <div *ngFor="let description of experiance.description">
               <div>
-                {{description}}
+                {{lang(description)}}
               </div>
             </div>
             <div *ngFor="let achievement of experiance.achievements">
               <div>
-                {{achievement}}
+                {{lang(achievement)}}
               </div>
             </div>
             <div *ngIf="experiance.codepen">
@@ -124,21 +125,21 @@
   </div>
   </section>
   
-  <section class="knowledge" #knowledge>
+  <section class="knowledge notPrinted" #knowledge>
     <div class="section-title">
-      <h2>knowledge</h2>
+      <h2>{{lang(resource.knowledge)}}</h2>
     </div>
 
     <div class="section-content">
     <div *ngFor="let knowledge of resume.knowledge">
       <h4>
-        {{knowledge.type}}
+        {{lang(knowledge.type)}}
       </h4>
       <mat-card>
         <mat-card-content>
           <div *ngFor="let skill of knowledge.skills">
             <div>
-              {{skill.name}}
+              {{lang(skill.name)}}
             </div>
             <mat-progress-bar value={{skill.level*100}}></mat-progress-bar>
           </div>
@@ -150,7 +151,7 @@
   
   <section class="languages" #languages>
     <div class="section-title">
-      <h2>Languages</h2>
+      <h2>{{lang(resource.languages)}}</h2>
     </div>
 
     <div class="section-content">
@@ -158,10 +159,10 @@
       <mat-card-content>
         <div *ngFor="let language of resume.languages">
           <div>
-            {{language.name}}
+            {{lang(language.name)}}
           </div>
           <div>
-            {{language.description}}
+            {{lang(language.description)}}
           </div>
           <mat-progress-bar value={{language.level*100}}></mat-progress-bar>
         </div>
@@ -169,4 +170,8 @@
     </mat-card>
     </div>
   </section>
+
+  <button mat-mini-fab class="notPrinted" id="scroll-btn" color="blue" (click)="toTop()">
+    <mat-icon>keyboard_arrow_up</mat-icon>
+  </button>
 </div>
