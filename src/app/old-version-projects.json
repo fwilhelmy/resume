@@ -1,0 +1,118 @@
+	[
+		{
+			"type":
+			{
+				"fr": "École",
+				"en": "School"
+			},
+			"experiences": 
+			[
+				{
+					"title":
+					{
+						"fr": "Club Robotique",
+						"en": "Robotic Club"
+					},
+					"related": "Collège Montmorency",
+					"date":
+					{
+						"fr": "2013 à 2014",
+						"en": "2013 to 2014"
+					},
+					"description": 
+					[
+						{
+							"fr": "Remporter le prix de la meilleure programmation",
+							"en": "Robot won the prize for the best programming"
+						},
+						{
+							"fr": "Aussi, conçut le Site Web de l'équipe",
+							"en": "Made the website of the team"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type":
+			{
+				"fr": "Autres",
+				"en": "Others"
+			},
+			"experiences": 
+			[
+				{
+					"title":
+					{
+						"fr": "Donjons & Dragons",
+						"en": "Dungeons & Dragons"
+					},
+					"related": "Collège Montmorency",
+					"date":
+					{
+						"fr": "2014 à 2016",
+						"en": "2014 to 2016"
+					},
+					"description": 
+					[
+						{
+							"fr": "J’étais le maître du donjon de mon groupe",
+							"en": "I was the Dungeon Master of my group"
+						},
+						{
+							"fr": "Le système D20 utilisé a été presque entièrement conçu par moi",
+							"en": "The system we used was almost entirely designed by me"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type":
+			{
+				"fr": "Loisirs",
+				"en": "Hobbies"
+			},
+			"experiences": 
+			[
+				{
+					"title":
+					{
+						"fr": "Échecs",
+						"en": "Chess"
+					},
+					"date": 
+					{
+						"fr": "Depuis 2017",
+						"en": "Since 2017"
+					},
+					"description": 
+					[
+						{
+							"fr": "Forte concentration constante sur une tâche",
+							"en": "Strong and constant focus on a task"
+						},
+						{
+							"fr": "Analyser rapidement des situations compliquées",
+							"en": "Ability to quickly analyze complicated situations"
+						}
+					]
+				},
+				{
+					"title": "Piano",
+					"date":
+					{
+						"fr": "Depuis 2016",
+						"en": "Since 2016"
+					},
+					"description": 
+					[
+						{
+							"fr": "Autodidacte",
+							"en": "Self-discipline to learn by myself"
+						}
+					]
+				}
+			]
+		}
+	],
