@@ -1,12 +1,12 @@
 {
-	"name": "Felix Wilhelmy",
+	"name": "Félix Wilhelmy",
 	"linkedin": "/felix-wilhelmy",
 	"email": "fwilhelmy@hotmail.com",
 	"phone": "(438) 888-4218",
 	"education": 
 	[
 		{
-			"title": "BAC GÉNIE LOGICIEL",
+			"title": "BAC Génie Logiciel",
 			"school": "École de technologie supérieure",
 			"date": 
 			{
@@ -20,7 +20,7 @@
 			}
 		},
 		{
-			"title": "DEC COMPUTER SCIENCES",
+			"title": "Techniques de l'informatique",
 			"school": "Collège Montmorency",
 			"date": 
 			{
@@ -36,8 +36,8 @@
 		{
 			"title":
 			{
-				"fr": "PROGRAMME D'IMMERSION EN ANGLAIS",
-				"en": "ENGLISH IMMERSION PROGRAM"
+				"fr": "Programme d'Immersion en Anglais (Speaking & Debates)",
+				"en": "English Immersion Program (Speaking & Debates)"
 			},
 			"school": "Global Village English Centre",
 			"date": 
@@ -53,14 +53,14 @@
 		{
 			"type":
 			{
-				"fr": "Experiance Professionel",
-				"en": "Professional Experiance"
+				"fr": "Expériences Professionelle",
+				"en": "Professional Experiences"
 			},
-			"experiances": 
+			"experiences": 
 			[
 				{
 					"internship": true,
-					"title": "Full Stack Developper",
+					"title": "Full Stack Developer",
 					"employer": "Air Transat",
 					"date": 
 					{
@@ -75,16 +75,28 @@
 					"description": 
 					[
 						{
-							"fr": "",
-							"en": ""	
+							"fr": "Programmation d'une application web (Angular)",
+							"en": "Programming a web application (Angular)"	
+						},
+						{
+							"fr": "Participer aux cérémonies Scrum (planification, mêlée quotidienne, revue et rétrospective)",
+							"en": "Participation in Scrum ceremonies (planning, daily scrum, review and retrospective)"	
+						},
+						{
+							"fr": "Présentation du travail accompli lors de la revue des sprints (itérations)",
+							"en": "Presentation of the work accomplished during the sprint reviews (iterations)"	
 						}
 					],
 					"achievements": 
 					[
 						{
-							"fr": "",
-							"en": ""	
-						}
+							"fr": "Optimisation d'une des plus grosses requêtes SQL du projet (6x plus vite)",
+							"en": "Optimization of one of the biggest SQL queries in the project (6x faster)"	
+						},
+						{
+							"fr": "Construis un outil qui est utilisé et apprécié par plusieurs autres employées",
+							"en": "Built a tool that is used and appreciated by several other employees"	
+						} 
 					]
 				},
 				{
@@ -124,9 +136,6 @@
 							"fr": "Assister les recherchistes dans l'implémentation de mon travail",
 							"en": "Assisted senior researchers towards implementing my work"
 						}
-					],
-					"achievements": 
-					[
 					]
 				},
 				{
@@ -155,16 +164,13 @@
 							"en": "Programmed tools for the employees (Mostly in Python and JavaScript)"
 						},
 						{
-							"fr": "Aider les autres employées dans le fonctionnement des technologies#",
+							"fr": "Aider les autres employées dans le fonctionnement des technologies",
 							"en": "Helped customers in ensuring the functioning of the technologies"
 						},
 						{
-							"fr": "Déploier des technologies telles que des ordinateurs et des serveurs",
+							"fr": "Déploiement d’ordinateurs et de serveurs dans le parc informatique de l’entreprise",
 							"en": "Deployed technologies such as computers and servers"
 						}
-					],
-					"achievements": 
-					[
 					]
 				}
 			]
@@ -172,10 +178,10 @@
 		{
 			"type":
 			{
-				"fr": "Autre Experiances",
-				"en": "Other Experiances"
+				"fr": "Autres Expériences",
+				"en": "Other Experiences"
 			},
-			"experiances": 
+			"experiences": 
 			[
 				{
 					"internship": false,
@@ -237,7 +243,7 @@
 				"fr": "École",
 				"en": "School"
 			},
-			"experiances": 
+			"experiences": 
 			[
 				{
 					"title":
@@ -246,11 +252,15 @@
 						"en": "Robotic Club"
 					},
 					"related": "Collège Montmorency",
-					"date": "2013 - 2014",
+					"date":
+					{
+						"fr": "2013 à 2014",
+						"en": "2013 to 2014"
+					},
 					"description": 
 					[
 						{
-							"fr": "Remporté le prix de la meilleure programmation",
+							"fr": "Remporter le prix de la meilleure programmation",
 							"en": "Robot won the prize for the best programming"
 						},
 						{
@@ -267,7 +277,7 @@
 				"fr": "Autres",
 				"en": "Others"
 			},
-			"experiances": 
+			"experiences": 
 			[
 				{
 					"title":
@@ -276,7 +286,11 @@
 						"en": "Dungeons & Dragons"
 					},
 					"related": "Collège Montmorency",
-					"date": "2014 - 2016",
+					"date":
+					{
+						"fr": "2014 à 2016",
+						"en": "2014 to 2016"
+					},
 					"description": 
 					[
 						{
@@ -297,7 +311,7 @@
 				"fr": "Loisirs",
 				"en": "Hobbies"
 			},
-			"experiances": 
+			"experiences": 
 			[
 				{
 					"title":
@@ -324,12 +338,16 @@
 				},
 				{
 					"title": "Piano",
-					"date": "Since 2016",
+					"date":
+					{
+						"fr": "Depuis 2016",
+						"en": "Since 2016"
+					},
 					"description": 
 					[
 						{
 							"fr": "Autodidacte",
-							"en": "Self discipline to learn by myself"
+							"en": "Self-discipline to learn by myself"
 						}
 					]
 				}
@@ -342,7 +360,7 @@
 			"type":
 			{
 				"fr": "Mes Forces",
-				"en": "Top"
+				"en": "Top Skills"
 			},
 			"skills": 
 			[
@@ -413,8 +431,8 @@
 		{
 			"type":
 			{
-				"fr": "Logiciel",
-				"en": "Software"
+				"fr": "Logiciels",
+				"en": "Softwares"
 			},
 			"skills": 
 			[
@@ -464,7 +482,7 @@
 			},
 			"description":
 			{
-				"fr": "Professionel",
+				"fr": "Professionnel",
 				"en": "Professional"
 			},
 			"level": 0.85

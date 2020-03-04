@@ -1,9 +1,9 @@
 <!-- Toolbar -->
 <div class="toolbar container notPrinted" role="banner">
   <div class="col">
-    Felix Wilhelmy
+    {{lang(resume.name)}}
   </div>
-
+  
   <div class="col-auto navigation">
     <button mat-button (click)="scroll(education)">{{lang(resource.education)}}</button>
     <button mat-button (click)="scroll(work)">{{lang(resource.work)}}</button>
@@ -11,7 +11,7 @@
     <button mat-button (click)="scroll(knowledge)">{{lang(resource.knowledge)}}</button>
     <button mat-button (click)="scroll(languages)">{{lang(resource.languages)}}</button>
   </div>
-
+  
   <div class="col language">
     <mat-button-toggle-group [(ngModel)]="language">
       <mat-button-toggle value="EN">EN</mat-button-toggle>
@@ -21,7 +21,7 @@
 </div>
 
 <div class="content" role="main">
-
+  
   <div class="header">
     <mat-card>
       <mat-card-header>
@@ -39,18 +39,24 @@
     <div class="section-title">
       <h2>{{lang(resource.education)}}</h2>
     </div>
-
+    
     <div class="section-content">
-    <div *ngFor="let education of resume.education">
-      <mat-card>
-        <mat-card-header>
-          <mat-card-title>{{lang(education.title)}}</mat-card-title>
-          <mat-card-subtitle>{{lang(education.school)}} - {{lang(education.date)}} - {{lang(education.location)}}</mat-card-subtitle>
-        </mat-card-header>
-      </mat-card>
-      
+      <div *ngFor="let education of resume.education">
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>{{lang(education.title)}}</mat-card-title>
+            <mat-card-subtitle>
+              {{lang(education.school)}} 
+              <span *ngIf="education.date">-</span>
+              {{lang(education.date)}}
+              <span *ngIf="education.location">-</span>
+              {{lang(education.location)}}
+            </mat-card-subtitle>
+          </mat-card-header>
+        </mat-card>
+        
+      </div>
     </div>
-  </div>
   </section>
   
   <section class="work" #work>
@@ -63,19 +69,24 @@
         <h4>
           {{lang(work.type)}}
         </h4>
-        <div *ngFor="let experiance of work.experiances">
+        <div *ngFor="let experience of work.experiences">
           <mat-card>
             <mat-card-header>
-              <mat-card-title>{{lang(experiance.title)}} {{experiance.internship?"("+lang(resource.internship)+")":""}}</mat-card-title>
-              <mat-card-subtitle>{{lang(experiance.employer)}} - {{lang(experiance.date)}} - {{lang(experiance.location)}}</mat-card-subtitle>
+              <mat-card-title>{{lang(experience.title)}} {{experience.internship?"("+lang(resource.internship)+")":""}}</mat-card-title>
+              <mat-card-subtitle>
+                {{lang(experience.employer)}}
+                <span *ngIf="experience.date">-</span>
+                {{lang(experience.date)}}
+                <span *ngIf="experience.location">-</span>
+                {{lang(experience.location)}}</mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
-              <div *ngFor="let description of experiance.description">
+              <div *ngFor="let description of experience.description">
                 <div>
                   - {{lang(description)}}
                 </div>
               </div>
-              <div *ngFor="let achievement of experiance.achievements">
+              <div *ngFor="let achievement of experience.achievements">
                 <div>
                   - {{lang(achievement)}}
                 </div>
@@ -91,61 +102,65 @@
     <div class="section-title">
       <h2>{{lang(resource.projects)}}</h2>
     </div>
-
+    
     <div class="section-content">
-    <div *ngFor="let project of resume.projects">
-      <h4>
-        {{lang(project.type)}}
-      </h4>
-      <div class="projects" *ngFor="let experiance of project.experiances">
-        <mat-card>
-          <mat-card-header>
-            <mat-card-title>{{lang(experiance.title)}}</mat-card-title>
-            <mat-card-subtitle>{{lang(experiance.date)}} - {{lang(experiance.related)}}</mat-card-subtitle>
-          </mat-card-header>
-          <mat-card-content>
-            <div *ngFor="let description of experiance.description">
-              <div>
-                {{lang(description)}}
+      <div *ngFor="let project of resume.projects">
+        <h4>
+          {{lang(project.type)}}
+        </h4>
+        <div class="projects" *ngFor="let experience of project.experiences">
+          <mat-card>
+            <mat-card-header>
+              <mat-card-title>{{lang(experience.title)}}</mat-card-title>
+              <mat-card-subtitle>
+                {{lang(experience.date)}}
+                <span *ngIf="experience.related">-</span>
+                {{lang(experience.related)}}
+              </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <div *ngFor="let description of experience.description">
+                <div>
+                  {{lang(description)}}
+                </div>
               </div>
-            </div>
-            <div *ngFor="let achievement of experiance.achievements">
-              <div>
-                {{lang(achievement)}}
+              <div *ngFor="let achievement of experience.achievements">
+                <div>
+                  {{lang(achievement)}}
+                </div>
               </div>
-            </div>
-            <div *ngIf="experiance.codepen">
-              THIS IS A DEMO
-              <!-- <iframe height="275" style="width: 100%;" scrolling="no" title="Gravity Simulator V1" src="TODO CODEPEN URL" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe> -->
-            </div>
-          </mat-card-content>
-        </mat-card>
+              <div *ngIf="experience.codepen">
+                THIS IS A DEMO
+                <!-- <iframe height="275" style="width: 100%;" scrolling="no" title="Gravity Simulator V1" src="TODO CODEPEN URL" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe> -->
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </div>
       </div>
     </div>
-  </div>
   </section>
   
   <section class="knowledge notPrinted" #knowledge>
     <div class="section-title">
       <h2>{{lang(resource.knowledge)}}</h2>
     </div>
-
+    
     <div class="section-content">
-    <div *ngFor="let knowledge of resume.knowledge">
-      <h4>
-        {{lang(knowledge.type)}}
-      </h4>
-      <mat-card>
-        <mat-card-content>
-          <div *ngFor="let skill of knowledge.skills">
-            <div>
-              {{lang(skill.name)}}
+      <div *ngFor="let knowledge of resume.knowledge">
+        <h4>
+          {{lang(knowledge.type)}}
+        </h4>
+        <mat-card>
+          <mat-card-content>
+            <div *ngFor="let skill of knowledge.skills">
+              <div>
+                {{lang(skill.name)}}
+              </div>
+              <mat-progress-bar value={{skill.level*100}}></mat-progress-bar>
             </div>
-            <mat-progress-bar value={{skill.level*100}}></mat-progress-bar>
-          </div>
-        </mat-card-content>
-      </mat-card>
-    </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
     </div>
   </section>
   
@@ -153,21 +168,21 @@
     <div class="section-title">
       <h2>{{lang(resource.languages)}}</h2>
     </div>
-
+    
     <div class="section-content">
-    <mat-card>
-      <mat-card-content>
-        <div *ngFor="let language of resume.languages">
-          <div>
-            {{lang(language.name)}} ({{lang(language.description)}})
+      <mat-card>
+        <mat-card-content>
+          <div *ngFor="let language of resume.languages">
+            <div>
+              {{lang(language.name)}} ({{lang(language.description)}})
+            </div>
+            <mat-progress-bar value={{language.level*100}}></mat-progress-bar>
           </div>
-          <mat-progress-bar value={{language.level*100}}></mat-progress-bar>
-        </div>
-      </mat-card-content>
-    </mat-card>
+        </mat-card-content>
+      </mat-card>
     </div>
   </section>
-
+  
   <button mat-mini-fab class="notPrinted" id="scroll-btn" color="blue" (click)="toTop()">
     <mat-icon>keyboard_arrow_up</mat-icon>
   </button>
