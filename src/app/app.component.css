@@ -118,16 +118,20 @@ mat-card {
   .toolbar {
     width: 100%;
     max-width: 100%;
-    height: 10%;
+    height: 55px;
     padding: 8px;
     display: flex;
     align-items: center;
     background-color: #1976d2;
     color: white;
     font-weight: 600;
+    position: fixed;
+    top: 0;
+    z-index: 100;
   }
 
   .content {
     flex-direction: column;
     align-items: center;
+    padding-top: 55px;
   }
