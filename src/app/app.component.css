@@ -60,7 +60,7 @@ mat-card {
 
 .section-title {
   display: block;
-  border: 1px solid silver;
+  border: 0.4px solid silver;
   border-left: 0;
   border-right: 0;
   background: linear-gradient(#eee, #fff);

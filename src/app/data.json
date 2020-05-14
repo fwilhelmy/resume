@@ -82,8 +82,8 @@
 							"en": "Optimization of one of the biggest SQL queries in the project (6x faster)"	
 						},
 						{
-							"fr": "Construis un outil qui est utilisé et apprécié par plusieurs autres employées",
-							"en": "Built a tool that is used and appreciated by several other employees"	
+							"fr": "Programmé un outil qui est utilisé et apprécié par plusieurs autres employées",
+							"en": "Programmed a tool that is used and appreciated by several other employees"	
 						} 
 					]
 				},
@@ -117,7 +117,7 @@
 							"en": "Developed training algorithms in python for the deep learning machine"
 						},
 						{
-							"fr": "Assister les recherchistes dans l'implémentation de mon travail",
+							"fr": "Assister les chercheurs dans l'implémentation de mon travail",
 							"en": "Assisted senior researchers towards implementing my work"
 						}
 					]
@@ -180,16 +180,16 @@
 					[
 						
 						{
-							"fr": "Travaillé pour des équipes d'Esports internationales d’Esports (Corée du Sud, France, Danemark, etc.)",
-							"en": "Worked for international Esports teams (South Korea, France, Denmark, etc.)"
-						},
-						{
 							"fr": "Développé un bons leadership, persévérance et maturité",
 							"en": "Developed a strong perseverance, leadership and maturity"
 						},
 						{
-							"fr": "Coacher des joueurs qui sont devenus parmi les meilleurs au monde",
-							"en": "Coached players who became some of the best in the world"
+							"fr": "Documentation et analyse avancée de statistiques et de données",
+							"en": "Documentation and advanced analysis of statistics and data"
+						},
+						{
+							"fr": "Travaillé pour des équipes d'Esports internationales (Corée du Sud, France, Danemark, etc.)",
+							"en": "Worked for international Esports teams (South Korea, France, Denmark, etc.)"
 						}
 					]
 				},
@@ -236,8 +236,8 @@
 					"en": "Robot won the prize for the best programming"
 				},
 				{
-					"fr": "Aussi, conçut le Site Web de l'équipe",
-					"en": "Made the website of the team"
+					"fr": "Développement du site web de l'équipe",
+					"en": "Made the team's website"
 				}
 			]
 		},
