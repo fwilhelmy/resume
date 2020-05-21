@@ -1,3 +1,23 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.smallsep {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #scroll-btn {
   display: none;
   position: fixed;
@@ -85,6 +105,10 @@ mat-card {
 }
 
 @media print{
+  .language-level {
+    display: none;
+  }
+
   .notPrinted {
     display:none !important;
   }

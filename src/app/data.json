@@ -307,106 +307,76 @@
 	"knowledge": 
 	[
 		{
-			"type":
+			"name":
 			{
-				"fr": "Mes Forces",
-				"en": "Top Skills"
+				"fr": "Structures de données",
+				"en": "Data Structures"
 			},
-			"skills": 
-			[
-				{
-					"name":
-					{
-						"fr": "Structures de données",
-						"en": "Data Structures"
-					},
-					"level": 0.9
-				},
-				{
-					"name":
-					{
-						"fr": "Algorithmes",
-						"en": "Algorithms"
-					},
-					"level": 0.85
-				},
-				{
-					"name":
-					{
-						"fr": "Analyse de problèmes",
-						"en": "Problem analysis"
-					},
-					"level": 0.85
-				},
-				{
-					"name":
-					{
-						"fr": "Mathématiques",
-						"en": "Mathematics"
-					},
-					"level": 0.8
-				}
-			]
+			"level": 0.9
 		},
 		{
-			"type":
+			"name":
 			{
-				"fr": "Programmation",
-				"en": "Programming"
+				"fr": "Algorithmes",
+				"en": "Algorithms"
 			},
-			"skills": 
-			[
-				{
-					"name": "C#",
-					"level": 0.8
-				},
-				{
-					"name": "Java",
-					"level": 0.85
-				},
-				{
-					"name": "Python",
-					"level": 0.8
-				},
-				{
-					"name": "JavaScript",
-					"level": 0.7
-				},
-				{
-					"name": "SQL",
-					"level": 0.75
-				}
-			]
+			"level": 0.85
 		},
 		{
-			"type":
+			"name":
 			{
-				"fr": "Logiciels",
-				"en": "Softwares"
+				"fr": "Analyse de problèmes",
+				"en": "Problem analysis"
 			},
-			"skills": 
-			[
-				{
-					"name": "Visual Studio",
-					"level": 0.85
-				},
-				{
-					"name": "After Effects",
-					"level": 0.85
-				},
-				{
-					"name": "Photoshop",
-					"level": 0.8
-				},
-				{
-					"name": "Wireshark",
-					"level": 0.65
-				},
-				{
-					"name": "Windows Server",
-					"level": 0.6
-				}
-			]
+			"level": 0.85
+		},
+		{
+			"name":
+			{
+				"fr": "Mathématiques",
+				"en": "Mathematics"
+			},
+			"level": 0.8
+		},
+		{
+			"name": "C#",
+			"level": 0.8
+		},
+		{
+			"name": "Java",
+			"level": 0.85
+		},
+		{
+			"name": "Python",
+			"level": 0.8
+		},
+		{
+			"name": "JavaScript",
+			"level": 0.7
+		},
+		{
+			"name": "SQL",
+			"level": 0.75
+		},
+		{
+			"name": "Visual Studio",
+			"level": 0.85
+		},
+		{
+			"name": "After Effects",
+			"level": 0.85
+		},
+		{
+			"name": "Photoshop",
+			"level": 0.8
+		},
+		{
+			"name": "Wireshark",
+			"level": 0.65
+		},
+		{
+			"name": "Windows Server",
+			"level": 0.6
 		}
 	],
 	"languages": 
