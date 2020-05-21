@@ -35,5 +35,17 @@
 	"languages": {
         "fr": "Langues",
         "en": "Languages"
+    },
+    "searchbar": {
+        "fr": "Recherche",
+        "en": "Search"
+    },
+    "colname": {
+        "fr": "Habileté",
+        "en": "Skill"
+    },
+    "collevel": {
+        "fr": "Niveau",
+        "en": "Level"
     }
 }

@@ -148,20 +148,20 @@
       </div>
       <div class="section-content">
         <mat-form-field>
-          <mat-label>Filter</mat-label>
-          <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia">
+          <mat-label>{{lang(resource.searchbar)}}</mat-label>
+          <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Java">
         </mat-form-field>
         
         <div class="mat-elevation-z8">
           <table mat-table [dataSource]="dataSource" matSort>
             
             <ng-container matColumnDef="name">
-              <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+              <th mat-header-cell *matHeaderCellDef mat-sort-header>{{lang(resource.colname)}}</th>
               <td mat-cell *matCellDef="let row"> {{lang(row.name)}} </td>
             </ng-container>
             
             <ng-container matColumnDef="level">
-              <th mat-header-cell *matHeaderCellDef mat-sort-header> Progress </th>
+              <th mat-header-cell *matHeaderCellDef mat-sort-header>{{lang(resource.collevel)}}</th>
               <td mat-cell *matCellDef="let row">
                 <mat-progress-bar value={{row.level*100}}></mat-progress-bar>
               </td>
