@@ -45,7 +45,7 @@
 		{
 			"type":
 			{
-				"fr": "Expériences Professionelle",
+				"fr": "Expériences Professionnelles",
 				"en": "Professional Experiences"
 			},
 			"experiences": 
@@ -82,7 +82,7 @@
 							"en": "Optimization of one of the biggest SQL queries in the project (6x faster)"	
 						},
 						{
-							"fr": "Programmé un outil qui est utilisé et apprécié par plusieurs autres employées",
+							"fr": "Programmer un outil qui est utilisé et apprécié par plusieurs autres employées",
 							"en": "Programmed a tool that is used and appreciated by several other employees"	
 						} 
 					]
@@ -109,7 +109,7 @@
 					[
 						
 						{
-							"fr": "Travaillé sur un projet de développement d’une intelligence artificielle OCR",
+							"fr": "Travailler sur un projet de développement d’une intelligence artificielle OCR",
 							"en": "Worked on the project of developing an OCR artificial intelligence"
 						},
 						{
@@ -144,7 +144,7 @@
 							"en": "Programmed tools for the employees (Mostly in Python and JavaScript)"
 						},
 						{
-							"fr": "Aider les autres employées dans le fonctionnement des technologies",
+							"fr": "Aider les employés dans le fonctionnement des technologies",
 							"en": "Helped customers in ensuring the functioning of the technologies"
 						},
 						{
@@ -180,7 +180,7 @@
 					[
 						
 						{
-							"fr": "Développé un bons leadership, persévérance et maturité",
+							"fr": "Développer un bons leadership, persévérance et maturité",
 							"en": "Developed a strong perseverance, leadership and maturity"
 						},
 						{
@@ -188,7 +188,7 @@
 							"en": "Documentation and advanced analysis of statistics and data"
 						},
 						{
-							"fr": "Travaillé pour des équipes d'Esports internationales (Corée du Sud, France, Danemark, etc.)",
+							"fr": "Travailler pour des équipes d'Esports internationales (Corée du Sud, France, Danemark, etc.)",
 							"en": "Worked for international Esports teams (South Korea, France, Denmark, etc.)"
 						}
 					]
@@ -207,7 +207,7 @@
 					[
 						
 						{
-							"fr": "Support au responsable d'une classe d'adolescent",
+							"fr": "Support au responsable d'une classe d'adolescents",
 							"en": "Support for the supervision of a class of teenagers"
 						}
 					]
