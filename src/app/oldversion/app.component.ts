@@ -1,4 +1,6 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
+import {MatSort} from '@angular/material/sort';
+import {MatTableDataSource} from '@angular/material/table';
 import data1 from './data.json';
 import data2 from './resources.json';
 
@@ -11,9 +13,32 @@ import data2 from './resources.json';
 export class AppComponent implements OnInit {
     public resume = data1;
     public resource = data2;
-    public language = 'FR';
-        
+    public language = 'EN';
+    
+    displayedColumns: string[] = ['name', 'level'];
+    dataSource: MatTableDataSource<any>;
+    
+    @ViewChild(MatSort, {static: true}) sort: MatSort;
+    
     ngOnInit() {
+        this.dataSource = new MatTableDataSource(this.resume.knowledge);
+        this.dataSource.sort = this.sort;
+        console.log(this.sort);
+        console.log(this.dataSource);
+        this.dataSource.filterPredicate = (data: any, filter: string) => {
+            return this.lang(data.name).toLowerCase().indexOf(filter) !== -1;
+        };
+        this.dataSource.sortingDataAccessor = (data: any, sortHeaderId: string) => {
+            switch (sortHeaderId) {
+                case 'name': {
+                    return this.lang(data.name);
+                }
+                
+                case 'level': {
+                    return data.level;
+                }
+            }
+        }; 
         window.onscroll = () => this.isTop();
     }
     
@@ -45,5 +70,10 @@ export class AppComponent implements OnInit {
     
     scroll(el: HTMLElement) {
         el.scrollIntoView({behavior: 'smooth'});
+    }
+    
+    applyFilter(event: Event) {
+        const filterValue = (event.target as HTMLInputElement).value;
+        this.dataSource.filter = filterValue.trim().toLowerCase();
     }
 }

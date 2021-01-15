@@ -23,7 +23,7 @@
 				"fr": "2013 à 2016",
 				"en": "2013 to 2016"
 			},
-			"location": "Montréal, Québec"
+			"location": "Laval, Québec"
 		},
 		{
 			"title":
@@ -31,7 +31,7 @@
 				"fr": "Programme d'Immersion en Anglais (Speaking & Debates)",
 				"en": "English Immersion Program (Speaking & Debates)"
 			},
-			"school": "Global Village English Centre",
+			"school": "Global Village English Centres",
 			"date": 
 			{
 				"fr": "Été 2015",
@@ -82,7 +82,7 @@
 							"en": "Optimization of one of the biggest SQL queries in the project (6x faster)"	
 						},
 						{
-							"fr": "Programmer un outil qui est utilisé et apprécié par plusieurs autres employées",
+							"fr": "Programmer un outil qui est utilisé et apprécié par plusieurs autres employés",
 							"en": "Programmed a tool that is used and appreciated by several other employees"	
 						} 
 					]
@@ -180,7 +180,7 @@
 					[
 						
 						{
-							"fr": "Développer un bons leadership, persévérance et maturité",
+							"fr": "Développer leadership, persévérance et maturité",
 							"en": "Developed a strong perseverance, leadership and maturity"
 						},
 						{
@@ -207,8 +207,8 @@
 					[
 						
 						{
-							"fr": "Support au responsable d'une classe d'adolescents",
-							"en": "Support for the supervision of a class of teenagers"
+							"fr": "Responsable d'une classe d'adolescents",
+							"en": "Supervision of a class of teenagers"
 						}
 					]
 				}
@@ -256,8 +256,8 @@
 			"description": 
 			[
 				{
-					"fr": "J’étais le maître du donjon de mon groupe",
-					"en": "I was the Dungeon Master of my group"
+					"fr": "Maître du donjon",
+					"en": "Dungeon Master"
 				},
 				{
 					"fr": "Le système D20 utilisé a été presque entièrement conçu par moi",
@@ -311,72 +311,58 @@
 			{
 				"fr": "Structures de données",
 				"en": "Data Structures"
-			},
-			"level": 0.9
+			}
 		},
 		{
 			"name":
 			{
 				"fr": "Algorithmes",
 				"en": "Algorithms"
-			},
-			"level": 0.85
+			}
 		},
 		{
 			"name":
 			{
 				"fr": "Analyse de problèmes",
 				"en": "Problem analysis"
-			},
-			"level": 0.85
+			}
 		},
 		{
 			"name":
 			{
 				"fr": "Mathématiques",
 				"en": "Mathematics"
-			},
-			"level": 0.8
+			}
 		},
 		{
-			"name": "C#",
-			"level": 0.8
+			"name": "C#"
 		},
 		{
-			"name": "Java",
-			"level": 0.85
+			"name": "Java"
 		},
 		{
-			"name": "Python",
-			"level": 0.8
+			"name": "Python"
 		},
 		{
-			"name": "JavaScript",
-			"level": 0.7
+			"name": "JavaScript"
 		},
 		{
-			"name": "SQL",
-			"level": 0.75
+			"name": "SQL"
 		},
 		{
-			"name": "Visual Studio",
-			"level": 0.85
+			"name": "Visual Studio"
 		},
 		{
-			"name": "After Effects",
-			"level": 0.85
+			"name": "After Effects"
 		},
 		{
-			"name": "Photoshop",
-			"level": 0.8
+			"name": "Photoshop"
 		},
 		{
-			"name": "Wireshark",
-			"level": 0.65
+			"name": "Wireshark"
 		},
 		{
-			"name": "Windows Server",
-			"level": 0.6
+			"name": "Windows Server"
 		}
 	],
 	"languages": 
@@ -391,8 +377,7 @@
 			{
 				"fr": "Natif",
 				"en": "Native"
-			},
-			"level": 1
+			}
 		},
 		{
 			"name":
@@ -404,8 +389,7 @@
 			{
 				"fr": "Professionnel",
 				"en": "Professional"
-			},
-			"level": 0.85
+			}
 		}
 	],
 	"codes": 
