@@ -338,6 +338,9 @@
 			"name": "C#"
 		},
 		{
+			"name": "C++"
+		},
+		{
 			"name": "Java"
 		},
 		{
@@ -347,22 +350,16 @@
 			"name": "JavaScript"
 		},
 		{
-			"name": "SQL"
+			"name": "TypeScript"
 		},
 		{
-			"name": "Visual Studio"
+			"name": "SQL"
 		},
 		{
 			"name": "After Effects"
 		},
 		{
 			"name": "Photoshop"
-		},
-		{
-			"name": "Wireshark"
-		},
-		{
-			"name": "Windows Server"
 		}
 	],
 	"languages": 
