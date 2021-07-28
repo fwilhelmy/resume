@@ -1,3 +1,3 @@
 To deploy :
-npm update
-ng update
+Update all the shits : https://update.angular.io/
+
