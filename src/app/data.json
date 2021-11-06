@@ -52,6 +52,48 @@
 			[
 				{
 					"internship": true,
+					"title":
+					{
+						"fr": "Assistant de Recherche",
+						"en": "Research Assistant"
+					},
+					"employer": 
+					{
+						"fr": "Laboratoire de recherche LASSENA",
+						"en": "LASSENA research laboratory"
+					},
+					"date": 
+					{
+						"fr": "Été 2021",
+						"en": "Summer 2021"
+					},
+					"location": "Montréal, Québec",
+					"description": 
+					[
+
+						{
+							"fr": "Développer un système de communication réseaux pour le projet. (UDP, C++)",
+							"en": "Developed a network communication system for the project. (UDP, C++)"	
+						},
+						{
+							"fr": "Concevoir des interfaces qui répliquent des instruments de navigation en aviation. (C++, Qt)",
+							"en": "Designed interfaces to replicate navigation instruments in aviation. (C++, Qt)"	
+						},
+						{
+							"fr": "Construire des blocs d'automatisation pour les algorithmes de traitement de signal. (MatLab, Simulink)",
+							"en": "Built automation blocks for signal processing algorithms. (MatLab, Simulink)"	
+						}
+					],
+					"achievements": 
+					[
+						{
+							"fr": "Participer, lors de mon bac, à de la recherche sur un sujet avancé avec des étudiants en maîtrise.",
+							"en": "Participated, during my baccalaureate, in scientific research on an advanced subject with master's students."	
+						}
+					]
+				},
+				{
+					"internship": true,
 					"title": "Full Stack Developer",
 					"employer": "Air Transat",
 					"date": 
